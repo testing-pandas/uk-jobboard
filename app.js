@@ -12,7 +12,7 @@ import fetch from 'node-fetch';
 // ========================================
 // ENVIRONMENT VARIABLES
 // ========================================
-const PORT = Number(process.env.PORT || 3000);
+const PORT = Number(process.env.PORT || 3001);
 const SITE_URL = (process.env.SITE_URL || `http://localhost:${PORT}`).replace(/\/+$/,'');
 const SITE_NAME = process.env.SITE_NAME || 'Warehouse Jobs';
 const FAVICON_URL = process.env.FAVICON_URL || '';
