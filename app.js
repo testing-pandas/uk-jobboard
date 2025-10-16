@@ -26,6 +26,7 @@ const HAS_OPENAI = !!process.env.OPENAI_API_KEY;
 const CLICK_SECRET = process.env.CLICK_SECRET || crypto.randomBytes(16).toString('hex');
 const TARGET_PROFESSION = process.env.TARGET_PROFESSION || 'warehouse';
 const TARGET_COUNTRY = process.env.TARGET_COUNTRY || 'UK';
+const TARGET_COUNTRY_NAME = process.env.TARGET_COUNTRY_NAME || 'United Kingdom';
 const AI_PROCESS_LIMIT = Number(process.env.AI_PROCESS_LIMIT || 0); // 0 = unlimited
 
 // Keywords for profession matching (lowercase)
